@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetching data from API</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+    <main>
+        <section id="user-search-section">
+
+            <div class="search-contianer">
+
+                <div>
+                    <input type="text" class="search-input" id="searchInput" placeholder="Search by name or symbol">
+                </div>
+                <div>
+                    <button id="searchButton"><img class="icon" src="./8666693_search_icon.png"></button>
+
+                </div>
+            </div>
+            <div>
+                <button id="sortMarketCap">Sort by Market Cap</button>
+            </div>
+            <div>
+                <button id="sortPercentageChange">Sort by Percentage</button>
+            </div>
+
+
+
+
+        </section>
+
+        <section class="table-data">
+            <table id="cryptoTable">
+                <tbody id="cryptoTableBody">
+                    <!-- adding table data dynamically -->
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
